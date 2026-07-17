@@ -1,0 +1,18 @@
+<ROOM.RAW>
+    <ID>room</ID>
+    <MODE>raw</MODE>
+
+    <AXIS>x y z u v w</AXIS>
+    <ENERGIE>e2 e3 e6 e8 e12 e∞</ENERGIE>
+
+    <META>
+        <XARG>xarg</XARG>
+        <GHOST>ghost</GHOST>
+        <SINN>7sinn</SINN>
+    </META>
+
+    <STATE>active</STATE>
+    <CACHE>enabled</CACHE>
+    <SYNC>true</SYNC>
+</ROOM.RAW>
+

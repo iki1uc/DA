@@ -1,0 +1,238 @@
+<ROOM>
+    <ID>cpu</ID>
+    <TYPE>core</TYPE>
+    <MODE>raw</MODE>
+
+    <AXIS>x y z u v w</AXIS>
+    <ENERGIE>e2 e3 e6 e8 e12 e∞</ENERGIE>
+    <ORBIT>o1..o9</ORBIT>
+
+    <MODULE>nano atom raw operator simu rev beat∞ win∞</MODULE>
+    <META>xarg ghost 7sinn</META>
+
+    <CPU>active</CPU>
+
+    <PIPE>h1 → e3 → o6 → o9 → b12 → win∞</PIPE>
+    <CORE>o_meta</CORE>
+</ROOM>
+<ROOM>
+    <ID>cache</ID>
+    <TYPE>memory</TYPE>
+    <MODE>raw</MODE>
+
+    <AXIS>x y z u v w</AXIS>
+    <ENERGIE>e2 e3 e6 e8 e12 e∞</ENERGIE>
+    <ORBIT>o1..o9</ORBIT>
+
+    <MODULE>nano atom raw operator simu rev beat∞ win∞</MODULE>
+    <META>xarg ghost 7sinn</META>
+
+    <CACHE>l1 l2 l3</CACHE>
+
+    <PIPE>h1 → e3 → o6 → o9 → b12 → win∞</PIPE>
+    <CORE>o_meta</CORE>
+</ROOM>
+<ROOM>
+    <ID>memory</ID>
+    <TYPE>storage</TYPE>
+    <MODE>raw</MODE>
+
+    <AXIS>x y z u v w</AXIS>
+    <ENERGIE>e2 e3 e6 e8 e12 e∞</ENERGIE>
+    <ORBIT>o1..o9</ORBIT>
+
+    <MODULE>nano atom raw operator simu rev beat∞ win∞</MODULE>
+    <META>xarg ghost 7sinn</META>
+
+    <MEMORY>l1 l2 l3</MEMORY>
+
+    <PIPE>h1 → e3 → o6 → o9 → b12 → win∞</PIPE>
+    <CORE>o_meta</CORE>
+</ROOM>
+<ROOM>
+    <ID>io</ID>
+    <TYPE>interface</TYPE>
+    <MODE>raw</MODE>
+
+    <AXIS>x y z u v w</AXIS>
+    <ENERGIE>e2 e3 e6 e8 e12 e∞</ENERGIE>
+    <ORBIT>o1..o9</ORBIT>
+
+    <MODULE>nano atom raw operator simu rev beat∞ win∞</MODULE>
+    <META>xarg ghost 7sinn</META>
+
+    <IO>input output</IO>
+
+    <PIPE>h1 → e3 → o6 → o9 → b12 → win∞</PIPE>
+    <CORE>o_meta</CORE>
+</ROOM>
+<ROOM>
+    <ID>beat</ID>
+    <TYPE>energy</TYPE>
+    <MODE>raw</MODE>
+
+    <AXIS>x y z u v w</AXIS>
+    <ENERGIE>e2 e3 e6 e8 e12 e∞</ENERGIE>
+    <ORBIT>o1..o9</ORBIT>
+
+    <MODULE>nano atom raw operator simu rev beat∞ win∞</MODULE>
+    <META>xarg ghost 7sinn</META>
+
+    <BEAT>beat2 beat3 beat6 beat8 beat12</BEAT>
+
+    <PIPE>h1 → e3 → o6 → o9 → b12 → win∞</PIPE>
+    <CORE>o_meta</CORE>
+</ROOM>
+<ROOM>
+    <ID>rev</ID>
+    <TYPE>matter</TYPE>
+    <MODE>raw</MODE>
+
+    <AXIS>x y z u v w</AXIS>
+    <ENERGIE>e2 e3 e6 e8 e12 e∞</ENERGIE>
+    <ORBIT>o1..o9</ORBIT>
+
+    <MODULE>nano atom raw operator simu rev beat∞ win∞</MODULE>
+    <META>xarg ghost 7sinn</META>
+
+    <REV>rev0.877 rev1.0</REV>
+
+    <PIPE>h1 → e3 → o6 → o9 → b12 → win∞</PIPE>
+    <CORE>o_meta</CORE>
+</ROOM>
+<ROOM>
+    <ID>win</ID>
+    <TYPE>final</TYPE>
+    <MODE>raw</MODE>
+
+    <AXIS>x y z u v w</AXIS>
+    <ENERGIE>e2 e3 e6 e8 e12 e∞</ENERGIE>
+    <ORBIT>o1..o9</ORBIT>
+
+    <MODULE>nano atom raw operator simu rev beat∞ win∞</MODULE>
+    <META>xarg ghost 7sinn</META>
+
+    <WIN>win∞</WIN>
+
+    <PIPE>h1 → e3 → o6 → o9 → b12 → win∞</PIPE>
+    <CORE>o_meta</CORE>
+</ROOM>
+<ROOM>
+    <ID>simu</ID>
+    <TYPE>simulation</TYPE>
+    <MODE>raw</MODE>
+
+    <AXIS>x y z u v w</AXIS>
+    <ENERGIE>e2 e3 e6 e8 e12 e∞</ENERGIE>
+    <ORBIT>o1..o9</ORBIT>
+
+    <MODULE>nano atom raw operator simu rev beat∞ win∞</MODULE>
+    <META>xarg ghost 7sinn</META>
+
+    <SIMU>w128 w128raw</SIMU>
+
+    <PIPE>h1 → e3 → o6 → o9 → b12 → win∞</PIPE>
+    <CORE>o_meta</CORE>
+</ROOM>
+<ROOM>
+    <ID>atom</ID>
+    <TYPE>orbit</TYPE>
+    <MODE>raw</MODE>
+
+    <AXIS>x y z u v w</AXIS>
+    <ENERGIE>e2 e3 e6 e8 e12 e∞</ENERGIE>
+    <ORBIT>o1..o9</ORBIT>
+
+    <MODULE>nano atom raw operator simu rev beat∞ win∞</MODULE>
+    <META>xarg ghost 7sinn</META>
+
+    <ATOM>eigenorbit</ATOM>
+
+    <PIPE>h1 → e3 → o6 → o9 → b12 → win∞</PIPE>
+    <CORE>o_meta</CORE>
+</ROOM>
+<ROOM>
+    <ID>nano</ID>
+    <TYPE>measure</TYPE>
+    <MODE>raw</MODE>
+
+    <AXIS>x y z u v w</AXIS>
+    <ENERGIE>e2 e3 e6 e8 e12 e∞</ENERGIE>
+    <ORBIT>o1..o9</ORBIT>
+
+    <MODULE>nano atom raw operator simu rev beat∞ win∞</MODULE>
+    <META>xarg ghost 7sinn</META>
+
+    <NANO>t6d6e</NANO>
+
+    <PIPE>h1 → e3 → o6 → o9 → b12 → win∞</PIPE>
+    <CORE>o_meta</CORE>
+</ROOM>
+<ROOM>
+    <ID>meta</ID>
+    <TYPE>logic</TYPE>
+    <MODE>raw</MODE>
+
+    <AXIS>x y z u v w</AXIS>
+    <ENERGIE>e2 e3 e6 e8 e12 e∞</ENERGIE>
+    <ORBIT>o1..o9</ORBIT>
+
+    <MODULE>nano atom raw operator simu rev beat∞ win∞</MODULE>
+    <META>xarg ghost 7sinn</META>
+
+    <META.LOGIC>meta∞</META.LOGIC>
+
+    <PIPE>h1 → e3 → o6 → o9 → b12 → win∞</PIPE>
+    <CORE>o_meta</CORE>
+</ROOM>
+<ROOM>
+    <ID>ghost</ID>
+    <TYPE>instability</TYPE>
+    <MODE>raw</MODE>
+
+    <AXIS>x y z u v w</AXIS>
+    <ENERGIE>e2 e3 e6 e8 e12 e∞</ENERGIE>
+    <ORBIT>o1..o9</ORBIT>
+
+    <MODULE>nano atom raw operator simu rev beat∞ win∞</MODULE>
+    <META>xarg ghost 7sinn</META>
+
+    <GHOST>ghosterror</GHOST>
+
+    <PIPE>h1 → e3 → o6 → o9 → b12 → win∞</PIPE>
+    <CORE>o_meta</CORE>
+</ROOM>
+<ROOM>
+    <ID>xarg</ID>
+    <TYPE>analysis</TYPE>
+    <MODE>raw</MODE>
+
+    <AXIS>x y z u v w</AXIS>
+    <ENERGIE>e2 e3 e6 e8 e12 e∞</ENERGIE>
+    <ORBIT>o1..o9</ORBIT>
+
+    <MODULE>nano atom raw operator simu rev beat∞ win∞</MODULE>
+    <META>xarg ghost 7sinn</META>
+
+    <XARG>fehleranalyse</XARG>
+
+    <PIPE>h1 → e3 → o6 → o9 → b12 → win∞</PIPE>
+    <CORE>o_meta</CORE>
+</ROOM>
+<ROOM>
+    <ID>7sinn</ID>
+    <TYPE>meta</TYPE>
+    <MODE>raw</MODE>
+
+    <AXIS>x y z u v w</AXIS>
+    <ENERGIE>e2 e3 e6 e8 e12 e∞</ENERGIE>
+    <ORBIT>o1..o9</ORBIT>
+
+    <MODULE>nano atom raw operator simu rev beat∞ win∞</MODULE>
+    <META>xarg ghost 7sinn</META>
+
+    <SINN>meta7</SINN>
+
+    <PIPE>h1 → e3 → o6 → o9 → b12 → win∞</PIPE>
+    <CORE>o_meta</CORE>
+</ROOM>
