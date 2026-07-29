@@ -1,9 +1,10 @@
+import { DA_AXIOM_PREFETCH } from "./async.js";
+
 export async function DA_BOOT() {
 
     const pre = await DA_AXIOM_PREFETCH();
 
     return {
-        boot: "OK",
         axiome: pre.axiome,
         prefetch: pre,
         vector: "NC.vector.next-ready",
