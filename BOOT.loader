@@ -1,9 +1,10 @@
 export async function DA_BOOT() {
 
-    const pre = await DA_PREFETCH("DA");
+    const pre = await DA_AXIOM_PREFETCH();
 
     return {
-        axiome: DA_AXIOM,
+        boot: "OK",
+        axiome: pre.axiome,
         prefetch: pre,
         vector: "NC.vector.next-ready",
         state: "DA-BOOT-OK"
