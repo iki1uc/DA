@@ -2,193 +2,73 @@
 <html lang="de">
 <head>
 <meta charset="UTF-8">
-<title>DA • UNI‑RESPO Engine</title>
-
+<title>DA – Station</title>
 <style>
 body {
-  background:#000;
-  color:#eee;
-  font-family:Consolas, monospace;
-  padding:20px;
+  font-family: serif;
+  background: #fafafa;
+  padding: 40px;
+  color: #222;
 }
-h1,h2 {
-  color:#00e0ff;
-  text-shadow:0 0 10px #00e0ff;
+.section {
+  margin: 20px auto;
+  max-width: 700px;
+  padding: 20px;
+  border-left: 4px solid #444;
+  background: white;
 }
-.block {
-  border:1px solid #00e0ff;
-  padding:15px;
-  margin:20px 0;
-  border-radius:8px;
-  background:#111;
+a {
+  color: #444;
+  text-decoration: none;
+  font-weight: bold;
 }
-.matrix {
-  display:grid;
-  grid-template-columns:repeat(3,1fr);
-  gap:10px;
-}
-.axis8 {
-  display:grid;
-  grid-template-columns:repeat(4,1fr);
-  gap:10px;
-}
-.cell {
-  padding:10px;
-  background:#222;
-  border:1px solid #333;
-  text-align:center;
-  border-radius:6px;
-}
-.scanbox {
-  background:#222;
-  border:1px solid #444;
-  padding:10px;
-  margin-top:10px;
-}
-.verify {
-  background:#1a1a1a;
-  border:1px solid #5500ff;
-  padding:10px;
-  margin-top:10px;
+a:hover {
+  text-decoration: underline;
 }
 </style>
 </head>
-
 <body>
 
-<h1>DA‑RESPO • UNI‑RESPO • WELT‑RESPO</h1>
+<h1>DA – Station</h1>
 
-<!-- FUNKTION.matrix -->
-<div class="block">
-  <h2>FUNKTION.matrix</h2>
-  <p>Achsen: TMP / TRANS / WARB<br>
-     Felder: WLOCH / KANAL / GATE</p>
-
-  <div class="matrix">
-    <div class="cell">TMP.WLOCH</div>
-    <div class="cell">TMP.KANAL</div>
-    <div class="cell">TMP.GATE</div>
-
-    <div class="cell">TRANS.WLOCH</div>
-    <div class="cell">TRANS.KANAL</div>
-    <div class="cell">TRANS.GATE</div>
-
-    <div class="cell">WARB.WLOCH</div>
-    <div class="cell">WARB.KANAL</div>
-    <div class="cell">WARB.GATE</div>
-  </div>
+<div class="section">
+  <h2>Dokumente (NEU)</h2>
+  <p><a href="README.md">README.md</a></p>
+  <p><a href="ID.html">ID.html</a></p>
 </div>
 
-<!-- DA‑Kosmos -->
-<div class="block">
-  <h2>DA‑Kosmos</h2>
-  <div class="matrix">
-    <div class="cell">DA</div>
-    <div class="cell">DA.tmp</div>
-    <div class="cell">DA.trans</div>
-
-    <div class="cell">DA.warb</div>
-    <div class="cell">DA‑NC3×3</div>
-    <div class="cell">DA‑NC6eX6D</div>
-
-    <div class="cell">DA‑NC9×9</div>
-    <div class="cell">NC.math</div>
-    <div class="cell">verify.T</div>
-  </div>
+<div class="section">
+  <h2>CSV‑Achsen</h2>
+  <ul>
+    <li><a href="achse-bedeutung-8.csv">Achse Bedeutung</a></li>
+    <li><a href="achse-funktion-3.csv">Achse Funktion</a></li>
+    <li><a href="achse-modul-12.csv">Achse Modul</a></li>
+    <li><a href="achse-quelle-12.csv">Achse Quelle</a></li>
+    <li><a href="zustand-bedeutung-4.csv">Zustand Bedeutung</a></li>
+  </ul>
 </div>
 
-<!-- UNI‑Axiome -->
-<div class="block">
-  <h2>UNI‑Axiome</h2>
-  <div class="matrix">
-    <div class="cell">C.tmp</div>
-    <div class="cell">X.tmp</div>
-    <div class="cell">Z.tmp</div>
-
-    <div class="cell">DA.tmp</div>
-    <div class="cell">NE.tmp</div>
-    <div class="cell">BEN.tmp</div>
-
-    <div class="cell">DE.tmp</div>
-    <div class="cell">TR.tmp</div>
-    <div class="cell">EN.tmp</div>
-  </div>
+<div class="section">
+  <h2>Altes System</h2>
+  <ul>
+    <li>ROOT.me</li>
+    <li>SOURCE.me</li>
+    <li>SYSTEM.me</li>
+    <li>AUTO‑LOAD.boot</li>
+    <li>BOOT.loader</li>
+    <li>NC.math</li>
+    <li>X.room.CORE</li>
+    <li>X.room.IN</li>
+    <li>X.room.OUT</li>
+    <li>*.tmp Dateien</li>
+    <li>ghost.html</li>
+    <li>verify.html</li>
+  </ul>
 </div>
 
-<!-- X.room -->
-<div class="block">
-  <h2>X‑Room‑System</h2>
-  <div class="matrix">
-    <div class="cell">X.room.CORE</div>
-    <div class="cell">X.room.IN</div>
-    <div class="cell">X.room.OUT</div>
-  </div>
-</div>
-
-<!-- RUN8 -->
-<div class="block">
-  <h2>RUN8 • OCTACORE</h2>
-  <div class="axis8">
-    <div class="cell">N</div>
-    <div class="cell">S</div>
-    <div class="cell">E</div>
-    <div class="cell">W</div>
-    <div class="cell">UP</div>
-    <div class="cell">DOWN</div>
-    <div class="cell">IN</div>
-    <div class="cell">OUT</div>
-  </div>
-</div>
-
-<!-- SCAN -->
-<div class="block">
-  <h2>SCAN‑Modul</h2>
-  <p>scan.language + ORT.scan aktiv</p>
-
-  <div class="scanbox">
-    <p><strong>SCAN:</strong></p>
-    <input type="text" id="scanInput" placeholder="scan eingeben…" style="width:100%; padding:8px;">
-    <pre id="scanOutput" style="margin-top:10px;"></pre>
-  </div>
-
-  <script>
-    document.getElementById("scanInput").addEventListener("input", function() {
-      const v = this.value;
-      document.getElementById("scanOutput").textContent =
-        "SCAN → " + v + "\n" +
-        "ORT.scan → " + v + "\n" +
-        "scan.language → " + v;
-    });
-  </script>
-</div>
-
-<!-- VERIFY -->
-<div class="block">
-  <h2>DA.verify</h2>
-  <div class="verify" id="verifyBox">
-    Läuft Analyse…
-  </div>
-
-<script>
-document.getElementById("verifyBox").textContent =
-  "DA.verify:\n" +
-  "- DA.tmp vorhanden\n" +
-  "- DA‑NC3×3 / DA‑NC6eX6D / DA‑NC9×9 erkannt\n" +
-  "- NC.math aktiv\n" +
-  "- verify.T.html gefunden\n" +
-  "- C.tmp / X.tmp / Z.tmp geladen\n" +
-  "- NE.tmp / BEN.tmp aktiv\n" +
-  "- DE.tmp / TR.tmp / EN.tmp aktiv\n" +
-  "- X.room.CORE / IN / OUT aktiv\n" +
-  "- ghost.html erkannt\n" +
-  "- 9×9‑Operator.me aktiv\n" +
-  "- SYSTEM.me / ROOT.me / SOURCE.me vollständig\n" +
-  "- FUNKTION.matrix geladen\n" +
-  "- RUN8 Achsen aktiv\n" +
-  "- UNI.bridge kompatibel\n" +
-  "- Keine Fehler erkannt";
-</script>
-
+<div class="section">
+  <h2>Verständnis für alle</h2>
+  <p>Shogun = Raum · Schach = Regel · Skat = Mensch</p>
 </div>
 
 </body>
